@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+/*Шрифты*/
+body{
+  margin: 0;
+  font-family: 'Nunito Sans', 'Arial', 'Helvetica', sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .button{
   background: #E3B873;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -8,4 +21,106 @@
   color: white;
   text-transform: uppercase;
   font-style: italic;
+  font-size: 11px;
+  cursor: pointer;
+}
+.title{
+  font-family: 'Yeseva One','Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.logo{
+  margin-left: 90px;
+  color: #E3B873;
+  text-transform: uppercase;
+}
+
+.header{
+  background-color: black;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  height: 83px;
+  align-items: center;
+  font-size: 11px;
+}
+.header-navigation{
+  list-style: none;
+  display: flex;
+}
+.header-navigtion__item{
+  margin-right: 47px;
+}
+.navigation-link{
+  text-decoration: none;
+  color: white;
+}
+.link-color{
+  color: #E3B873;
+}
+.header-contact{
+  margin-right: 90px;
+}
+.header-navigtion__tel{
+  color: #E3B873;
+  margin-right: 45px;
+}
+.banner{
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  height: 707px;
+  padding-top: 194px;
+  padding-left: 134px;
+  position: relative;
+}
+.banner-overlay{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.banner-content{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.banner-title{
+  padding-bottom: 19px;
+}
+.banner-text{
+  font-family: 'Nunito Sans',Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding-bottom: 23px;
+}
+.highlight{
+  color: #E3B873;
+}
+.banner-submit{
+  display: flex;
+  
+}
+.button-submit{
+  width: 205px;
+  height: 51px;
+  margin-right: 20px;
+}
+.button-transparent{
+  width: 205px;
+  height: 51px;
+  border: 1px solid white;
+  background: none;
+  padding: 0;
 }
