@@ -431,3 +431,135 @@ body * {
   font-size: 18px;
   line-height: 25px;
 }
+.types-request {
+  margin-top:280px ;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../img/list-background.jpg);
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  align-items: flex-start;
+}
+.request-list {
+  padding-left: 240px;
+  padding-right: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.request-list__item {
+  display: flex;
+  margin-bottom: 73px;
+}
+.round__circle {
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  background-color: rgb(227 184 115);
+  border: 8px solid white;
+  color: white;
+  font-family: 'Yeseva one','Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: px;
+}
+.round__text {
+  font-family: 'Nunito Sans',Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #363636;
+  align-self: center;
+}
+.request-form {
+  padding: 30px 50px;
+  background-color: rgb(19, 19, 19);
+  margin-right: 100px;
+  margin-left: 105px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(0 0 0 / 5%) 0px 30px 30px;
+  width: 509px;
+}
+.request-input {
+}
+.input-top {
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+.request-input__item {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 55px;
+  text-align: left;
+}
+.request-input__label {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input-request{
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  color: #ffffff;
+  background: none;
+  font-family: Nunito;
+  font-size: 14px;
+  line-height: 23px;
+  outline: 0;
+}
+.request-button{
+  padding-top: 20px;
+  text-align: right;
+}
+.button-request {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.checkbox-text__request {
+  color: #ffffff;
+}
+.types-pigcoin {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 30px;
+  margin-right: 320px;
+  margin-top: 40px;
+}
+.types-pigcoin img{
+  background-color: rgb(227, 184, 115);
+  border: 15px solid rgb(227, 184, 115);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  box-shadow: rgb(237 192 120 / 20%) 0px 10px 20px;
+}
+.pigcoin__text {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #E3B873;
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+  align-self: center;
+  text-align: left;
+}
