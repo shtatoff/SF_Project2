@@ -33,6 +33,26 @@ body * {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.subtitle {
+  font-family: 'Yeseva One','Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+  text-transform: uppercase;
+}
+.input {
+  font-family: 'Nunito Sans',Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;
+  border: none;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  outline: none;
+}
 .logo{
   margin-left: 90px;
   color: #E3B873;
@@ -202,8 +222,6 @@ body * {
   text-decoration: underline;
   color: #E3B873;
 }
-.projects-img {
-}
 .control-content {
   margin-top: -320px;
   display: flex;
@@ -226,9 +244,6 @@ body * {
 .control-icon {
   list-style: none;
   display: flex;
-}
-.control-icon__item {
-  margin-right: 9px;
 }
 .control-video {
   position: relative;
@@ -294,17 +309,6 @@ body * {
   font-size: 13px;
   line-height: 21px;
   color: rgba(54, 54, 54, 0.5);
-}
-.input {
-  font-family: 'Nunito Sans',Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 23px;
-  color: #363636;
-  border: none;
-  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-  outline: none;
 }
 .button-control {
   width: 200px;
@@ -377,9 +381,7 @@ body * {
 .types-icon {
   list-style: none;
   display: flex;
-}
-.types-icon__item {
-  margin-right: 10px;
+  gap: 10px;
 }
 .types-columns {
   display: flex;
@@ -397,14 +399,6 @@ body * {
   width: 330px;
   height: 290px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
-}
-.subtitle {
-  font-family: 'Yeseva One','Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: #363636;
 }
 .types-subtitle {
   margin-left: 34px;
@@ -487,8 +481,6 @@ body * {
   box-shadow: rgb(0 0 0 / 5%) 0px 30px 30px;
   width: 509px;
 }
-.request-input {
-}
 .input-top {
   font-family: Nunito;
   font-size: 18px;
@@ -511,7 +503,6 @@ body * {
   line-height: 21px;
   color: rgba(255, 255, 255, 0.5);
 }
-
 .input-request{
   border-bottom: 1px solid rgba(54, 54, 54, 0.3);
   color: #ffffff;
@@ -571,7 +562,6 @@ body * {
   position: relative;
   bottom: 130px;
   padding: 0px 99px;
-  
 }
 .relize-content {
   display: flex;
@@ -615,9 +605,6 @@ body * {
   object-fit: contain;
   margin-top: -40px;
 }
-.rilize-rightside img:nth-child(1){
-
-}
 .rilize-rightside img:nth-child(2){
   margin-top: -476px
 }
@@ -626,4 +613,105 @@ body * {
 }
 .rilize-rightside img:nth-child(4){
   margin-top: -405px
+}
+.client {
+  background-image: url(../img/background_clients.png);
+  background-position: right bottom;
+  background-repeat: repeat-x;
+  height: 1100px;
+}
+.client-content {
+  display: flex;
+  flex-direction: column;
+}
+.client-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.title-client{
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 13px;
+}
+.client-top__text {
+  margin-top: 25px;
+  font-family: 'Nunito Sans';
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 29px;
+  text-align: center;
+  color: #363636;
+}
+.client-columns {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.client-columns__column {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  margin-right: 50px;
+  padding: 24px 31px 60px 25px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  height: 428px;
+}
+.client-columns__column img{
+  border-radius: 50%;
+}
+.subtitle-client{
+  line-height: 23px;
+  text-transform: none;
+}
+.client-text{
+  grid-column: 1/3;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 180%;
+  color: #959595;
+  margin-top: 25px;
+}
+.client-buttons {
+  grid-column: 1/3;
+  display: flex;
+  flex-direction: row;
+  padding-top: 44px;
+}
+.client-buttons img{
+  border-radius: 0%;
+  margin-right: 5px;
+}
+.button-client__one {
+  display: flex;
+  align-items: center;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 2px;
+  padding: 10px 15px 10px 10px;
+}
+.button-client__two {
+  display: flex;
+  align-items: center;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 15px 10px 10px
 }
