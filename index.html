@@ -227,15 +227,15 @@
             <div class="request-input">
               <div class="input-top">Leave a request for free <br>departure of the measurer</div>
               <div class="request-input__item">
-                <label class="request-input__label" for="name">Name:</label>
+                <label class="request-input__label" for="name"><p>Name:</p></label>
                 <input class="input input-request" type="text" id="name" name="name" placeholder="What is your name:"></input>
               </div>
               <div class="request-input__item">
-                <label class="request-input__label" for="phone">Phone:</label>
+                <label class="request-input__label" for="phone"><p>Phone:</p></label>
                 <input class="input input-request" type="text" id="name" name="phone" placeholder="Your phone number:"></input>
               </div>
               <div class="request-input__item">
-                <label class="request-input__label" for="email">Email:</label>
+                <label class="request-input__label" for="email"><p>Email:</p></label>
                 <input class="input input-request" type="text" id="name" name="email" placeholder="Your email:"></input>
               </div>
               <div>
@@ -352,9 +352,66 @@
         </div>
       </div>
     </section>
+    <section class="questions">
+      <div class="container question-content">
+        <form class="question-form">
+            <h2 class= "subtitle question-subtitle">have any questions?</h2>
+            <div class="questions-input__item">
+              <label class="request-input__label" for="name"><p>Name:<br></p></label>
+              <input class="input input-request" type="text" id="name" name="name" placeholder="What is your name:"></input>
+            </div>
+            <div class="questions-input__item">
+              <label class="request-input__label" for="phone"><p>Phone:<br></p></label>
+              <input class="input input-request" type="text" id="name" name="phone" placeholder="Your phone number:"></input>
+            </div>
+            <div class="questions-input__item">
+              <label class="request-input__label" for="question"><p>Question:<br></p></label>
+              <input class="input input-request" type="text" id="name" name="question" placeholder="I want to know:"></input>
+            </div>
+            
+            <div class="question-checkbox">
+              <input  class="checkbox" type="checkbox" id="checkbox-question" checked>
+              <label for="checkbox-question"><div class="checkbox-text__request">I agree to the processing of personal <br> data</div>
+              </label>
+            </div>
+          
+            <div class="question-button"><button class="button button-question">Submit</button>
+            </div>
+        </form>
+        <div class="question-text">
+          Rostov-on-Don, Nansen St., 239 Shopping Center <br>
+Decorum Tel +7 (928) 768 32 29
+        </div>
+        <div class="question-icon">
+          <img src="./img/icons/email.svg" alt="email">
+          <img src="./img/icons/Inst.svg" alt="inst">
+        </div>
+        <div class="question-map">
+          <img src="./img/map_question.png" alt="map">
+        </div>
+      </div>
+    </section>
   </main>
-  <footer>
-
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="logo">
+        IC "Repair Design Project"
+      </div>
+      <nav>
+        <ul class="header-navigation">
+          <li class="header-navigtion__item "><a class="navigation-link link-color" href="#">HOME</a></li>
+          <li class="header-navigtion__item"><a class="navigation-link" href="#">PROJECTS</a></li>
+          <li class="header-navigtion__item"><a class="navigation-link" href="#">MEASUREMENT</a></li>
+          <li class="header-navigtion__item"><a class="navigation-link" href="#">TEAM</a></li>
+          <li class="header-navigtion__item"><a class="navigation-link" href="#">REVIEWS</a></li>
+          <li class="header-navigtion__item"><a class="navigation-link" href="#">CONTACTS</a></li>
+        </ul>
+      </nav>
+      <div class="header-contact">
+        <a class="header-navigtion__tel" href="tel:+79287683239">+7 (928) 768-32-39</a>
+        <button type="button" class="button">Request a call</button>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
