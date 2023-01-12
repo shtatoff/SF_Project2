@@ -847,6 +847,7 @@ body * {
           padding: 55px 45px;
         }
         .banner-title{
+          padding-top: 50px;
           font-size: 23px;
           line-height: 132.83%;
         }
@@ -957,8 +958,12 @@ body * {
         .control-input__item p{
           color: #ffffff;
         }
+        .control-checkbox{
+          margin-bottom: 0;
+        }
         .button-control{
-          
+          position: relative;
+          top: 40px;
           width: 340px;
         }
         .checkbox-text{
