@@ -358,11 +358,6 @@ body * {
   line-height: 163.68%;
   color: #181818;
 }
-.types {
-}
-.types-content {
- 
-}
 .types-top {
   display: flex;
   flex-direction: column;
@@ -734,9 +729,6 @@ body * {
   justify-items: center;
   margin-bottom:52px;
 }
-.question-input {
-  
-}
 .question-subtitle {
   font-size: 20px;
   line-height: 28px;
@@ -791,8 +783,6 @@ body * {
   width: 28px;
   height: 28px;
     
-}
-.question-map {
 }
 .footer{
   background: #181818;
@@ -1079,7 +1069,6 @@ body * {
           gap: 0;
         }
         .relize-leftside {
-          
           width: auto; 
           padding-top: 0px; 
           margin-right: 0px;
@@ -1110,7 +1099,7 @@ body * {
         }
 
         .question-form{
-          
+          margin-top: auto;
           order: 1;
           z-index: 1;
           display: flex;
@@ -1127,6 +1116,7 @@ body * {
           width: 340px;
         }
         .questions{
+          margin-top: -135px;
           height: auto;
           background-image: none;
           background-color: #181818;
