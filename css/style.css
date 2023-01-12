@@ -565,12 +565,10 @@ body * {
 .relize-content {
   display: flex;
   flex-direction: row;
-  gap: 50px;
 }
 .relize-leftside {
   width: 550px;
   padding-top: 130px;
-  margin-right: 50px;
 }
 .leftside-title {
   font-size: 27px;
@@ -816,7 +814,59 @@ body * {
 .relize-rightside__mobile{
   display: none;
 }
-@media (max-width: 1300px) {
+@media (max-width:1300px){
+  .logo{
+    margin-left: 40px;
+  }
+  .header-contact{
+    margin-right: 40px;
+  }
+  .header-navigtion__tel{
+    display: none;
+  }
+  .control-content{
+    margin-top: -330px;
+  }
+  .projects{
+    height: 1400px;
+    padding-top: 50px;
+    padding-left: 65px;
+    padding-right: 40px;
+  }
+  .types-columns{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .types-columns__column{
+    height: 650px;
+    margin-bottom: 60px;
+  }
+  .types-request{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .request-list{
+    padding-left:50px;
+  }
+  .request-form{
+    margin-right: 50px;
+    margin-left: 0;
+  }
+  .types-pigcoin{
+    margin-right: 200px;
+  }
+  .relize{
+    padding: 0 25px;
+  }
+  .relize-leftside{
+    width: auto;
+  }
+  .client-columns__column{
+    height: 590px;
+  }
+}
+@media (max-width: 996px) {
         img{
            width: auto;
             max-width: 100%;
@@ -828,6 +878,7 @@ body * {
           margin-right: 18px;
         }
         .header-navigtion__tel{
+          display: block;
           margin-right: 0px;
         }
         .header-navigation{
@@ -867,6 +918,7 @@ body * {
         }
         .projects{
           padding: 0;
+          height: 1100px;
         }
         .projects-content{
           flex-direction: column;
@@ -990,7 +1042,7 @@ body * {
           margin-bottom: 10px;
         }
         .types-columns__column{
-          height: 650px ;
+          margin-bottom: 0;
         }
         .types-column__list li{
           line-height: 22px;
